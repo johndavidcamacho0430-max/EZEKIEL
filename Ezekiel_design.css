@@ -21,7 +21,6 @@ body {
   padding: 15px 8%;
   z-index: 1000;
 }
-
 .logo {
   color: white;
   font-weight: bold;
@@ -339,96 +338,4 @@ ul {
     font-size: 18px; 
     line-height: 28px;
   }
-}
-@media (max-width: 768px) {
-
-    .nav {
-        flex-direction: column;
-        padding: 10px 5%;
-    }
-    .logo {
-        margin-bottom: 8px;
-    }
-    .navigation {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-    .navigation a {
-        margin: 0 8px;
-        font-size: 13px;
-    }
-    .Main {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-    }
-    .intro {
-        text-align: center;
-        font-size: clamp(24px, 6vw, 32px);
-    }
-    .intro p {
-        font-size: 14px;
-    }
-    .profile-img {
-        width: 180px;
-        height: 180px;
-    }
-    .content {
-        padding: 0 15px;
-    }
-    .content p {
-        font-size: 16px;
-    }
-
-    .interests-container {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        padding: 0 10px;
-    }
-    .interest-item {
-        padding: 20px 15px;
-    }
-    .interest-item img {
-        width: 100%;
-        height: 110px;
-    }
-
-    .skills-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .skill {
-        width: 90%;
-        max-width: 300px;
-    }
-
-}
-@media (max-width: 480px) {
-
-    .nav {
-        padding: 8px 3%;
-    }
-    .navigation a {
-        font-size: 12px;
-        margin: 0 5px;
-    }
-
-    .profile-img {
-        width: 140px;
-        height: 140px;
-    }
-
-    .intro {
-        font-size: 22px;
-    }
-
-    .interest-item img {
-        height: 95px;
-    }
-
-    .expe h2 {
-        font-size: 26px;
-    }
 }
